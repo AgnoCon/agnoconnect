@@ -1087,7 +1087,7 @@ static void print_banner(FILE *stream, int color)
 	}
 
 #ifndef DISABLE_CC
-	fprintf(stream, "%s", banner);
+	fprintf(stream, "%s%s", banner,use);
 #else
 	fprintf(stream, "%s", banner);
 #endif
