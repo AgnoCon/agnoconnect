@@ -1044,23 +1044,19 @@ static const char *basic_gets(int *cnt)
 
 static const char *banner =
     ".=======================================================.\n"
-    "|            _____ ____     ____ _     ___              |\n"
-    "|           |  ___/ ___|   / ___| |   |_ _|             |\n"
-    "|           | |_  \\___ \\  | |   | |    | |              |\n"
-    "|           |  _|  ___) | | |___| |___ | |              |\n"
-    "|           |_|   |____/   \\____|_____|___|             |\n"
-    "|                                                       |\n"
+	"|                                                       |\n"
+	"|            AGNOSHIN TECHNOLOGIES PVT LTD              |\n"
+	"|                                                       |\n"
     ".=======================================================.\n"
-    "| AgnoCon (https://www.agnocon.ai)                      |\n"
-    ".=======================================================.\n"
-    "\n";
+    "|         AgnoCon (https://www.agnocon.ai)              |\n"
+    ".=======================================================.\n";
 
-static const char *inf = "Type /help <enter> to see a list of commands\n\n\n";
+static const char *inf = "Type /help <enter> to see a list of commands\n";
 
 static void print_banner(FILE *stream, int color)
 {
 	int x = 0;
-	const char *use = NULL;
+	const char *use = "\n";
 #include <cc.h>
 
 	screen_size(&x, NULL);
