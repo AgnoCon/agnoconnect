@@ -5,9 +5,6 @@
 
   <queues>
 
-    
-  </queue>
-
   </queues>
 
 <!-- WARNING: Configuration of XML Agents will be updated into the DB upon restart. -->
